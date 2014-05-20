@@ -28,10 +28,9 @@
     echo '<div class="row">';
 
     $array = array(
-      'icone-inscricao.jpg',
       'icone-fortal.jpg',
       'contato.jpg',
-      'contato.jpg'
+      'icone-inscricao.jpg'
     );
 
     $counter = 0;
