@@ -19,7 +19,8 @@
       'link_after'   => '',
       'walker'       => '',
       'post_type'    => 'page',
-      'post_status'  => 'publish'
+      'post_status'  => 'publish',
+      'meta_key'     => 'middle'
     );
 
     $pages = get_pages($args);
