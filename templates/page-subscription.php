@@ -1,6 +1,11 @@
 <script type="text/javascript">
+
   window.onload = function() {
-    new dgCidadesEstados(document.getElementById('state'), document.getElementById('city'), true);
+      new dgCidadesEstados({
+        estado: document.getElementById('state'),
+        cidade: document.getElementById('city')
+      });
+
     $("#phone").mask("(99)9999-9999");
     $("#mobile").mask("(99)9999-9999");
     $("#cpf").mask("999.999.999-99");
@@ -53,7 +58,6 @@
     <label class="control-label" for="inputEmail">Estado</label>
     <div class="controls">
       <select id="state" name="state">
-        <option value="1">Selecione um estado</option>
       </select>
     </div>
   </div>
@@ -61,7 +65,6 @@
     <label class="control-label" for="inputEmail">Cidade</label>
     <div class="controls">
       <select id="city" name="city">
-        <option value="1">Selecione um estado</option>
       </select>
     </div>
   </div>

@@ -17,6 +17,13 @@
       <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'; ?>" type="text/css" media="screen" />
       <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" media="screen, projection" />
       <!-- stylesheets - end -->
+
+      <!-- javascript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://cidades-estados-js.googlecode.com/files/cidades-estados-1.2-utf8.js"></script>
+      <!-- javascript - end -->
+
   </head>
   <body>
     <!-- NavBar - Begin -->

@@ -1,5 +1,12 @@
     <!-- Footer - Begin -->
     <hr class="featurette-divider">
+
+    <div>
+        <?php if ( !function_exists('dynamic_sidebar') || 
+            !dynamic_sidebar('Patrocinadores') ) : ?>
+        <?php endif;?>
+    </div>
+
     <footer>
         <div class="container">
             <p class="pull-right"><a href="#">Back to top</a></p>
@@ -7,9 +14,5 @@
         </div>
     </footer>    
     <!-- Footer - End -->
-
-    <!-- javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
