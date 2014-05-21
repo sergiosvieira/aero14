@@ -2,9 +2,7 @@
     <hr class="featurette-divider">
 
     <div>
-        <?php if ( !function_exists('dynamic_sidebar') || 
-            !dynamic_sidebar('Patrocinadores') ) : ?>
-        <?php endif;?>
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/patrocinadores-aerofortal.jpg'; ?>">
     </div>
 
     <footer>
